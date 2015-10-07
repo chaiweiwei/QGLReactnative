@@ -1,0 +1,3 @@
+rootProject.name = 'QGLReactnative'
+
+include ':app'

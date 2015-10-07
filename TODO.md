@@ -1,0 +1,4 @@
+- [ ]load more
+- [ ]pull down refresh
+- [x]cell style
+- [ ]detail view back button
