@@ -99,7 +99,7 @@ var CMSList = React.createClass({
         ref="listView"
         dataSource={this.state.dataSource}
         renderRow={this.renderRow}
-        automaticallyAdjustContentInsets={false}
+        automaticallyAdjustContentInsets={true}
         keyboardDismissMode="on-drag"
         keyboardShouldPersisTags={true}
         showVertialScrollIndicator={false}
@@ -121,7 +121,7 @@ var styles = StyleSheet.create({
     justifyContent: "center"
   },
   list: {
-    paddingTop: 64
+
   }
 });
 
